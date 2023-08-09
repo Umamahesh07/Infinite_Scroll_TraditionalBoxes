@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+  background-color: #c4cff3a1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  margin-top: 20px;
+  gap: 10px; /* Space between boxes */
+  box-sizing: border-box;
+}
+
+.box1 {
+  flex: 1 1 calc(25% - 20px);  /*Four boxes minus the gap (10px on each side) */
+  height: 100px;
+  margin: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#loader {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 1.5em;
+  box-sizing: border-box;
+}
